@@ -135,9 +135,17 @@ padding-left: 100px;
     background-color: black;
   }
 
+
   .caja2:hover h3{
     color: black;
   }
   .caja2:hover .cu2{
     background-color: black;
   }
+@media screen and (max-width:768px){
+    .container{
+        display:flex
+        flex-direction:column;
+        align-items:center;
+    }
+}
